@@ -20,7 +20,7 @@ public class Calculator implements ActionListener {
     double C_a = 0, C_b = 0;
     char C_oper;
     //Creating a constructor to initialise the objects
-    SuperB_EVENT_GUI()
+    Calculator()
     {   //Configuring The Frame
         C_Frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         C_Frame.setSize(500,500);
